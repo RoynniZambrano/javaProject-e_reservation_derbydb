@@ -1,0 +1,9 @@
+
+
+
+
+
+ejecutar un contenedor de la image de la app.
+ docker run -d --name ereservation -p 8080:8080 roydocker2019/e-reservation:derbydb
+ 
+ docker logs -f ereservation
